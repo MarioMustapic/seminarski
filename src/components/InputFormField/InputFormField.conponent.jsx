@@ -5,11 +5,11 @@ import { InputElement } from "../InputElement/InputElement.component";
 export function InputFormField (props) {
     return (
         <div className="input-form-field">
-            <label className="input-form-field__label">
-                Display name
+            <label htmlFor={props.name} className="input-form-field__label">
+                {props.label}
             </label>
             <div className="input-form-field__element">
-                <InputElement />
+                <InputElement id={props.id} name={props.name} />
             </div>
         </div>
     );

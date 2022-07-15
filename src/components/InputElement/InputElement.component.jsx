@@ -2,6 +2,6 @@ import "./InputElement.style.scss";
 
 export function InputElement (props) {
     return (
-        <input className="input-element" />
+        <input className="input-element" id={props.id} name={props.name} />
     );
  }

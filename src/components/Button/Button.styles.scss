@@ -1,0 +1,30 @@
+@import "../../styles/index";
+
+.button {
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: $color-theme;
+    
+}
+
+button.button--rounded {
+    @include type($font-weight: 700);
+    @include shape ("rounded");
+    width: 100%;
+    color: $color-theme-inverted;
+    padding: 0 16px;
+    text-align: center;
+}
+
+button.button--round {
+    @include shape ("round");
+    width: 40px;
+}
+
+path {
+    fill:$color-theme-inverted;
+}

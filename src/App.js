@@ -1,9 +1,7 @@
-import { MessageText } from "./components/MessageText";
+import { ChatPage } from "./pages/ChatPage/ChatPage.conponent";
 
 function App() {
-  return <MessageText displayName="Domagoj" time="20:13">
-    Ready for the trip? I'm so excited I couldn't sleep!
-  </MessageText>;
+  return <ChatPage />;
 }
 
 export default App;

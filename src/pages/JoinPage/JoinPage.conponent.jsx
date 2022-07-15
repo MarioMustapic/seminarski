@@ -1,4 +1,4 @@
-import { JoinForm } from "../../components/JoinForm/JoinForm.component";
+import { JoinForm } from "../../conponents/JoinForm/JoinForm.component";
 import "./JoinPage.styles.scss";
 
 

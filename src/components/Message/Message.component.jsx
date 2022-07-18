@@ -1,4 +1,4 @@
-import { Avatar } from "../Avatar/Avatar.conponent";
+import { Avatar } from "../Avatar/Avatar.component";
 import { MessageText } from "../MessageText/MessageText.conponent";
 import "./Message.styles.scss";
 

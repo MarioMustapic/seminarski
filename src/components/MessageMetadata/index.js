@@ -1,1 +1,1 @@
-export {MessageMetadata} from "./MessageMetadata.conponent"
+export {MessageMetadata} from "./MessageMetadata.component"

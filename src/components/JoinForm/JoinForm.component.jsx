@@ -1,7 +1,7 @@
 import "./JoinForm.styles.scss";
 
 import { Button } from "../Button/Button.component";
-import { InputFormField } from "../InputFormField/InputFormField.conponent";
+import { InputFormField } from "../InputFormField/InputFormField.component";
 
 export function JoinForm (props) {
     return (
@@ -11,6 +11,8 @@ export function JoinForm (props) {
                     label="Display name"
                     name="displayName"
                     id="display-name"
+                    onChange={props.onChange}
+                    value={props.value}
                 />
             </div>
             <div className="join-form__field">

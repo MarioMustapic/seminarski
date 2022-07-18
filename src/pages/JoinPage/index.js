@@ -1,1 +1,1 @@
-export {JoinPage} from "./JoinPage.conponent"
+export {JoinPage} from "./JoinPage.component"

@@ -1,1 +1,1 @@
-export {Avatar} from "./Avatar.conponent"
+export {Avatar} from "./Avatar.component"

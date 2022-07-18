@@ -1,1 +1,1 @@
-export {MessageText} from "./MessageText.conponent"
+export {MessageText} from "./MessageText.component"

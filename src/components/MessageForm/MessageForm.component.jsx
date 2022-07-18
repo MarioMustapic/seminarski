@@ -1,8 +1,8 @@
 import "./MessageForm.styles.scss";
 
-import { InputElement } from "../InputElement";
 import { Button } from "../Button";
 import { Icon } from "../Icon";
+import { InputElement } from "../InputElement/InputElement.component";
 
 export function MessageForm(props) {
   return (

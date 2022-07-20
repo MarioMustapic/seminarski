@@ -50,3 +50,8 @@ Build the project for production.
 
 - [ ] Add some animations and other css changes
 - [ ] "Typing..." indicator
+
+
+
+
+<a href="https://www.freepik.com/vectors/background-repeat">Background repeat vector created by starline - www.freepik.com</a>

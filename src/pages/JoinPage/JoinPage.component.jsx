@@ -13,7 +13,8 @@ export function JoinPage(props) {
   return (
     <div className="join-page">
       <div className="join-page__title">
-        Chat with friends
+         CHAT WITH CATS
+         <img src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/smiling-cat-with-heart-eyes_1f63b.png" alt="cat emoji" />
       </div>
       <div className="join-page__form">
         <JoinForm onJoin={joinWithUser} />

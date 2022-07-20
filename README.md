@@ -3,6 +3,7 @@
 Real-time chat application using JavaScript, React, SCSS, and Scaledrone. Developed as part of Algebra's Frontend developer course.
 
 [**Try me on Netlify**](https://mariomustapicchat-app.netlify.app/)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1a81df7-28a4-4fa3-b440-00cc1ae1b4a1/deploy-status)](https://app.netlify.com/sites/mariomustapicchat-app/deploys)
 
 ---
 

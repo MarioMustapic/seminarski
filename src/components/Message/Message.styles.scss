@@ -1,17 +1,27 @@
+@import "../../styles/index";
+
+@keyframes slide-rotate-ver-left{0%{transform:translateX(0) rotateY(0)}100%{transform:translateX(85vw) rotateY(90deg)}}
+
+.swing-right-fwd{animation:swing-right-fwd .4s ease-out .2s both}
+
 .message {
-  display: flex;
+  @include shape('rounded-border');
+  animation:slide-rotate-ver-left .5s cubic-bezier(.25,.46,.45,.94) reverse both;
+  background: $message-background;
+  display: inline-flex;
   flex-flow: row nowrap;
   justify-content: stretch;
   align-items: flex-start;
 
   &__avatar {
     flex: 0 0 auto;
-    margin-right: 8px;
+    margin: 10px;
     display: inline-block;
   }
 
   &__text {
     flex: 1 1 auto;
     display: block;
+    margin: 10px;
   }
 }

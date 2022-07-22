@@ -12,7 +12,7 @@ export function ChatPage() {
   const [drone, setDrone] = useState(null);
   const [error, setError] = useState(null);
   const [joinedRoom, setJoinedRoom] = useState(false);
-  const [typingMessage, setTypingMessage] = useState(false);
+ // const [typingMessage, setTypingMessage] = useState(false);
 
   const sendMessage = (formState) => {
     const message = new MessageModel({

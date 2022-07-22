@@ -31,7 +31,10 @@ export function ChatPage(props) {
 
   return (
     <div className="chat-page">
-      <div className="chat-page__title">Chat with friends</div>
+      <div className="chat-page__title">
+          <img src="/catPic.png" alt="cat emoji" /> <br />
+          CHAT WITH CATS
+          </div>
       <div className="chat-page__message-list">
         {messageItems}
       </div>

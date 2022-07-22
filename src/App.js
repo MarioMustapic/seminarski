@@ -5,7 +5,11 @@ import { JoinPage } from "./pages/JoinPage/JoinPage.component";
 function App() {
   const { joined } = useUser();
 
-  return joined ? <ChatPage /> : <JoinPage />;
+  return (
+    <div style={{ backgroundImage: "url(/catPawsSmall.jpg)" }}>
+    {joined ? <ChatPage /> : <JoinPage />}
+    </div>
+  );
 }
 
 export default App;

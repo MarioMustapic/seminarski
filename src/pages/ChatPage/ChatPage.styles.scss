@@ -1,5 +1,8 @@
 @import "../../styles/index";
 
+img {
+  width: 100px;
+}
 .chat-page {
   display: flex;
   flex-flow: column nowrap;
